@@ -15,3 +15,11 @@ Given("I open login page", async function(){
 When("I fill login form", async function(){
     return await this.fillLoginForm();
 });
+
+When("I click submit button", async function(){
+    return await this.submitLogin();
+});
+
+Then("I expect to see application content", async function(){
+    return await this.verifySuccessfulLogin();
+});
