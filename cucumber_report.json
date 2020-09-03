@@ -1,0 +1,96 @@
+[
+  {
+    "description": "    As a user\n    I can login to application",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "features\\login.feature",
+    "elements": [
+      {
+        "id": "login;user-can-login-to-application",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "User can login to application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\steps.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 741000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open login page",
+            "match": {
+              "location": "features\\support\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3948000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fill in login form",
+            "match": {
+              "location": "features\\support\\steps.js:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5003000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout._onTimeout (C:\\Users\\marb6\\OneDrive\\Documents\\PuppeteerCucumber\\node_modules\\cucumber\\lib\\user_code_runner.js:76:18)\n    at listOnTimeout (internal/timers.js:549:17)\n    at processTimers (internal/timers.js:492:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "features\\support\\steps.js:19"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I expect to see application content",
+            "match": {
+              "location": "features\\support\\steps.js:23"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1391000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
