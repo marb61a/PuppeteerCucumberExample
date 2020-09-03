@@ -24,7 +24,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 741000000
+              "duration": 610000000
             }
           },
           {
@@ -37,7 +37,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3948000000
+              "duration": 3715000000
             }
           },
           {
@@ -49,9 +49,8 @@
               "location": "features\\support\\steps.js:15"
             },
             "result": {
-              "status": "failed",
-              "duration": 5003000000,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout._onTimeout (C:\\Users\\marb6\\OneDrive\\Documents\\PuppeteerCucumber\\node_modules\\cucumber\\lib\\user_code_runner.js:76:18)\n    at listOnTimeout (internal/timers.js:549:17)\n    at processTimers (internal/timers.js:492:7)"
+              "status": "passed",
+              "duration": 67000000
             }
           },
           {
@@ -63,7 +62,8 @@
               "location": "features\\support\\steps.js:19"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 420000000
             }
           },
           {
@@ -75,7 +75,8 @@
               "location": "features\\support\\steps.js:23"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1011000000
             }
           },
           {
@@ -86,7 +87,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1391000000
+              "duration": 186000000
             }
           }
         ]

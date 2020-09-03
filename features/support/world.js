@@ -8,6 +8,7 @@ class CustomWorld{
             headless: false
         });
         this.page = await this.browser.newPage();
+        await this.page.setDefaultNavigationTimeout(5000);
     }
 
     async closeBrowser(){
@@ -15,7 +16,7 @@ class CustomWorld{
     }
 
     async visit(){
-        await this.page.goto("http://zero.webappsecurity.com/index.html");
+        await this.page.goto("http://zero.webappsecurity.com/login.html");
     }
 
     async fillLoginForm(){
